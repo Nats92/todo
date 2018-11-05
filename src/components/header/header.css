@@ -1,0 +1,22 @@
+.main-header {
+  display: flex;
+  align-items: flex-end;
+
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.header-title {
+  margin: 0;
+
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.status-panel {
+  margin: 0;
+  margin-left: auto;
+
+  color: #999;
+  font-weight: bold;
+}

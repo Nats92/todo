@@ -1,0 +1,56 @@
+.todo-list-item {
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+}
+
+.todo-list-item--done {
+    text-decoration: line-through;
+}
+
+.todo-list-item--important .todo-list-item__label {
+    font-weight: 700;
+    color: steelblue;
+}
+
+.todo-list-item__label {
+    margin-right: auto;
+
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.todo-list-item__label:hover {
+    cursor: pointer;
+}
+
+.todo-list-item .btn {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+.todo-list-item .btn--delete {
+    border-color: red;
+}
+
+.todo-list-item .btn--delete:hover {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.fa-trash-o {
+    color: red;
+}
+
+.todo-list-item .btn--exclamation {
+    border-color: emerald;
+}
+
+.todo-list-item .btn--exclamation:hover {
+    background-color: rgba(0, 255, 0, 0.3);
+}
+
+.fa-exclamation {
+    color: emerald;
+}

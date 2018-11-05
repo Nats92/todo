@@ -1,0 +1,18 @@
+.status-filter-wrap {
+    display: flex;
+}
+
+.btn {
+    background-color: transparent;
+    padding: 0 15px;
+    border-radius: 2px;
+    border-color: #777;
+    margin-left: 3px;
+
+    color: #777;
+}
+
+.btn--active {
+    background-color: darkblue;
+    color: #fff;
+}
